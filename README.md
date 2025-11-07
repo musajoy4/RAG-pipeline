@@ -14,7 +14,7 @@ This project highlights skills in NLP, vector databases, and generative AI.
 
 ## Features
 - **Semantic Search**: Uses transformer-based embeddings (e.g., `all-MiniLM-L6-v2`) for precise document retrieval.
-- **Generative Responses**: Combines retrieved context with a large language model (e.g., Groq) to generate informative answers.
+- **Generative Responses**: Combines retrieved context with a large language model (e.g., LLAMA) to generate informative answers.
 - **Modular Pipeline**: Separated into ingestion, retrieval, and interaction stages for easy extension.
 - **Interactive Demo**: Streamlit-based UI for real-time chatting with the chatbot.
 - **Scalability**: Handles unstructured PDF data, with options for local persistence via chromadb.
@@ -28,7 +28,7 @@ This project highlights skills in NLP, vector databases, and generative AI.
 
 ## Usage
 1. **Run the Notebook**:
-   - Open `Joy_Deeplearning_RAG.ipynb` in Jupyter or Google Colab.
+   - Open `myDeeplearning_RAG.ipynb` in Jupyter or Google Colab.
    - Execute cells sequentially to:
      - Install packages.
      - Load and parse NASA PDFs from Google Drive.
@@ -40,7 +40,6 @@ This project highlights skills in NLP, vector databases, and generative AI.
 2. **Interact with the Chatbot**:
    - In the Streamlit interface, enter queries like "What are NASA's guidelines for space missions?"
    - The chatbot retrieves relevant document chunks and generates responses.
-
 
 
 ## Analysis of the Notebook
