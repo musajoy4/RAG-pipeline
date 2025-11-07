@@ -1,4 +1,4 @@
-# RAG-pipeline# NASA Policy RAG Chatbot
+# Enterprise Knowledge Management: A case study of NASA Policy RAG Chatbot
 
 ## Overview
 This repository contains a Jupyter notebook that demonstrates the development of a Retrieval-Augmented Generation (RAG) chatbot using LangChain and OpenAI. The chatbot is designed to query and retrieve insights from NASA policy and procedure documents (NODIS corpus). It leverages natural language processing (NLP) techniques for data ingestion, chunking, embedding, retrieval, and generation of context-aware responses. The project showcases an end-to-end pipeline for building intelligent knowledge assistants, applicable to enterprise document management.
