@@ -14,10 +14,10 @@ This project highlights skills in NLP, vector databases, and generative AI.
 
 ## Features
 - **Semantic Search**: Uses transformer-based embeddings (e.g., `all-MiniLM-L6-v2`) for precise document retrieval.
-- **Generative Responses**: Combines retrieved context with a large language model (e.g., Llama3-8B) to generate informative answers.
+- **Generative Responses**: Combines retrieved context with a large language model (e.g., Groq) to generate informative answers.
 - **Modular Pipeline**: Separated into ingestion, retrieval, and interaction stages for easy extension.
 - **Interactive Demo**: Streamlit-based UI for real-time chatting with the chatbot.
-- **Scalability**: Handles unstructured PDF data, with options for local persistence via FAISS.
+- **Scalability**: Handles unstructured PDF data, with options for local persistence via chromadb.
 
 ## Prerequisites
 - Python 3.10+
